@@ -47,6 +47,7 @@ const setUrlParam = (query: string): void => {
 
 const fetchJsonIndex = (): void => {
   const startTime = performance.now();
+  console.log(JSON_INDEX_URL);
   fetch(JSON_INDEX_URL)
     .then(response => {
       return response.json();
