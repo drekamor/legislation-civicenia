@@ -1,7 +1,7 @@
 import Fuse from './fuse.js';
 import {Hit, Page} from './types.js';
 
-const JSON_INDEX_URL = `${window.location.origin}/index.json`;
+const JSON_INDEX_URL = `${window.location.origin}legislation-civicenia/index.json`;
 const QUERY_URL_PARAM = 'query';
 
 const MAX_HITS_SHOWN = 10;
