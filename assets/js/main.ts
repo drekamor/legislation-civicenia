@@ -4,7 +4,7 @@ import {Hit, Page} from './types.js';
 const JSON_INDEX_URL = `${window.location.origin}/legislation-civicenia/index.json`;
 const QUERY_URL_PARAM = 'query';
 
-const MAX_HITS_SHOWN = 10;
+const MAX_HITS_SHOWN = 100;
 
 const LEFT_SIDE_MATCH_HTML = '<span style="background-color: #fff3cd;">';
 const RIGHT_SIDE_MATCH_HTML = '</span>';
@@ -33,11 +33,15 @@ const initFuse = (pages: Page[]): void => {
 
 const doSearchIfUrlParamExists = (): void => {
   const urlParams = new URLSearchParams(window.location.search);
+  let query : any;
   if (urlParams.has(QUERY_URL_PARAM)) {
-    const query = decodeURIComponent(urlParams.get(QUERY_URL_PARAM));
-    getInputEl().value = query;
-    handleSearchEvent();
+    query = decodeURIComponent(urlParams.get(QUERY_URL_PARAM));
   }
+  else{
+    query = " ";
+  }
+  getInputEl().value = query;
+  handleSearchEvent();
 };
 
 const setUrlParam = (query: string): void => {
