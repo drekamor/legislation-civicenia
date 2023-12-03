@@ -1,0 +1,9 @@
+baseURL: http://example.org
+languageCode: en-us
+title: Icenian Legislationss
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
