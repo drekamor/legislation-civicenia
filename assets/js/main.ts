@@ -12,6 +12,7 @@ const FUSE_OPTIONS = {
   keys: ['title'],
   ignoreLocation: true,
   includeMatches: true,
+  useExtendedSearch: true,
   minMatchCharLength: 3
 };
 
@@ -122,7 +123,11 @@ const getQuery = (): string => {
 };
 
 const getHits = (query: string): Hit[] => {
-  return fuse.search(query);
+  let results = fuse.search(query);
+  if(!results.length){
+    results = fuse.search("!0123456789abcd");
+  }
+  return results;
 };
 
 const handleSearchEvent = (): void => {
