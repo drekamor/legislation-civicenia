@@ -47,13 +47,9 @@ There will be six tiers of citizenry / residency in Icenia. Citizenship can be s
 The Icenian Bill of Rights applies to all Icenians of the Citizen rank or higher. No law or edict may be created that infringes upon these inalienable rights. These rights may be suspended as part of punishment for a crime that a citizen has been convicted of.
 
 1. Citizens are guaranteed the right to free and fair elections, exempt from bribery or intimidation.
-
 2. In all criminal prosecutions, the accused shall be entitled to a speedy, fair, and public trial. Furthermore, they are guaranteed the right to legal counsel either selected by the accused or provided by the state. The accused may be tried for each crime once and must be notified of what crimes they are being accused of.
-
 3. Citizens are free to peacefully assemble in public spaces or on private properties with the consent of the owner. 
-
 4. Citizens shall enjoy the right to practice religion, free of persecution from the state so long as said religion does not infringe upon the rights and wellbeing of others.
-
 5. itizens are guaranteed freedom from slavery, indentured servitude, or involuntary servitude.
 
 
